@@ -1,0 +1,6 @@
+framework module Pods_XfinityServiceManager {
+  umbrella header "Pods-XfinityServiceManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,898 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87A0F6ED998BF02C8C03657A /* Pods_SimpsonsViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B645E2F6DFC51647B28A57 /* Pods_SimpsonsViewer.framework */; };
+		CAF02DD02252116100D4D761 /* ItemCollectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF02DCF2252116100D4D761 /* ItemCollectionLayout.swift */; };
+		CAF02DD32252120800D4D761 /* ViewController+Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF02DD22252120800D4D761 /* ViewController+Presenter.swift */; };
+		CAF02DD522521B1900D4D761 /* ItemCollectionVerticalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAF02DD422521B1900D4D761 /* ItemCollectionVerticalCell.xib */; };
+		CAF02DD822524DBC00D4D761 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF02DD622524DBC00D4D761 /* DetailsViewController.swift */; };
+		CAF02DD922524DBC00D4D761 /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAF02DD722524DBC00D4D761 /* DetailsViewController.xib */; };
+		CAF1090C225280FD00F343ED /* Topics.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF65F2A224E2A6100FDDE7D /* Topics.swift */; };
+		CAF1090D225280FD00F343ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF65F19224E2A5000FDDE7D /* ViewController.swift */; };
+		CAF1090E225280FD00F343ED /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF02DD622524DBC00D4D761 /* DetailsViewController.swift */; };
+		CAF1090F225280FD00F343ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF65F17224E2A5000FDDE7D /* AppDelegate.swift */; };
+		CAF10910225280FD00F343ED /* ViewController+Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF02DD22252120800D4D761 /* ViewController+Presenter.swift */; };
+		CAF10911225280FD00F343ED /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF147F12250E98800550820 /* ItemCollectionViewCell.swift */; };
+		CAF10912225280FD00F343ED /* ItemCollectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF02DCF2252116100D4D761 /* ItemCollectionLayout.swift */; };
+		CAF10913225280FD00F343ED /* CustomNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF147EE2250E7C700550820 /* CustomNavController.swift */; };
+		CAF10914225280FD00F343ED /* SingleTonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF65F42224E341D00FDDE7D /* SingleTonManager.swift */; };
+		CAF10916225280FD00F343ED /* XfinityServiceManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF65F33224E2AC200FDDE7D /* XfinityServiceManager.framework */; };
+		CAF10919225280FD00F343ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF65F20224E2A5300FDDE7D /* LaunchScreen.storyboard */; };
+		CAF1091A225280FD00F343ED /* ItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAF147F22250E98800550820 /* ItemCollectionViewCell.xib */; };
+		CAF1091B225280FD00F343ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF65F1E224E2A5300FDDE7D /* Assets.xcassets */; };
+		CAF1091C225280FD00F343ED /* ItemCollectionVerticalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAF02DD422521B1900D4D761 /* ItemCollectionVerticalCell.xib */; };
+		CAF1091D225280FD00F343ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF65F1B224E2A5000FDDE7D /* Main.storyboard */; };
+		CAF1091E225280FD00F343ED /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAF02DD722524DBC00D4D761 /* DetailsViewController.xib */; };
+		CAF10920225280FD00F343ED /* XfinityServiceManager.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CAF65F33224E2AC200FDDE7D /* XfinityServiceManager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CAF147EF2250E7C700550820 /* CustomNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF147EE2250E7C700550820 /* CustomNavController.swift */; };
+		CAF147F32250E98800550820 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF147F12250E98800550820 /* ItemCollectionViewCell.swift */; };
+		CAF147F42250E98800550820 /* ItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAF147F22250E98800550820 /* ItemCollectionViewCell.xib */; };
+		CAF65F18224E2A5000FDDE7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF65F17224E2A5000FDDE7D /* AppDelegate.swift */; };
+		CAF65F1A224E2A5000FDDE7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF65F19224E2A5000FDDE7D /* ViewController.swift */; };
+		CAF65F1D224E2A5000FDDE7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF65F1B224E2A5000FDDE7D /* Main.storyboard */; };
+		CAF65F1F224E2A5300FDDE7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF65F1E224E2A5300FDDE7D /* Assets.xcassets */; };
+		CAF65F22224E2A5300FDDE7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF65F20224E2A5300FDDE7D /* LaunchScreen.storyboard */; };
+		CAF65F2B224E2A6100FDDE7D /* Topics.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF65F2A224E2A6100FDDE7D /* Topics.swift */; };
+		CAF65F37224E2AC200FDDE7D /* XfinityServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CAF65F35224E2AC200FDDE7D /* XfinityServiceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAF65F3A224E2AC200FDDE7D /* XfinityServiceManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF65F33224E2AC200FDDE7D /* XfinityServiceManager.framework */; };
+		CAF65F3B224E2AC200FDDE7D /* XfinityServiceManager.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CAF65F33224E2AC200FDDE7D /* XfinityServiceManager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CAF65F41224E2AD600FDDE7D /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF65F40224E2AD600FDDE7D /* ServiceManager.swift */; };
+		CAF65F43224E341D00FDDE7D /* SingleTonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF65F42224E341D00FDDE7D /* SingleTonManager.swift */; };
+		E133216F59FE004F96C97BB6 /* Pods_XfinityServiceManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B9293DE62698807E7C2BE0 /* Pods_XfinityServiceManager.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAF10909225280FD00F343ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAF65F0C224E2A5000FDDE7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAF65F32224E2AC200FDDE7D;
+			remoteInfo = XfinityServiceManager;
+		};
+		CAF65F38224E2AC200FDDE7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAF65F0C224E2A5000FDDE7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAF65F32224E2AC200FDDE7D;
+			remoteInfo = XfinityServiceManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CAF1091F225280FD00F343ED /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CAF10920225280FD00F343ED /* XfinityServiceManager.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF65F3F224E2AC200FDDE7D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CAF65F3B224E2AC200FDDE7D /* XfinityServiceManager.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		33B645E2F6DFC51647B28A57 /* Pods_SimpsonsViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpsonsViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A207AB96E140E8076F4891B /* Pods-SimpsonsViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpsonsViewer.release.xcconfig"; path = "Target Support Files/Pods-SimpsonsViewer/Pods-SimpsonsViewer.release.xcconfig"; sourceTree = "<group>"; };
+		5C5C42E6D9C32D53879883A8 /* Pods-SimpsonsViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpsonsViewer.debug.xcconfig"; path = "Target Support Files/Pods-SimpsonsViewer/Pods-SimpsonsViewer.debug.xcconfig"; sourceTree = "<group>"; };
+		60952A3414616610D0B4869E /* Pods-XfinityServiceManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XfinityServiceManager.debug.xcconfig"; path = "Target Support Files/Pods-XfinityServiceManager/Pods-XfinityServiceManager.debug.xcconfig"; sourceTree = "<group>"; };
+		B6B9293DE62698807E7C2BE0 /* Pods_XfinityServiceManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XfinityServiceManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C147AC2C80D70631C73D96BB /* Pods-XfinityServiceManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XfinityServiceManager.release.xcconfig"; path = "Target Support Files/Pods-XfinityServiceManager/Pods-XfinityServiceManager.release.xcconfig"; sourceTree = "<group>"; };
+		CAF02DCF2252116100D4D761 /* ItemCollectionLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionLayout.swift; sourceTree = "<group>"; };
+		CAF02DD22252120800D4D761 /* ViewController+Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Presenter.swift"; sourceTree = "<group>"; };
+		CAF02DD422521B1900D4D761 /* ItemCollectionVerticalCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCollectionVerticalCell.xib; sourceTree = "<group>"; };
+		CAF02DD622524DBC00D4D761 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		CAF02DD722524DBC00D4D761 /* DetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsViewController.xib; sourceTree = "<group>"; };
+		CAF10925225280FD00F343ED /* WireViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WireViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF10926225280FE00F343ED /* WireViewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "WireViewer-Info.plist"; path = "/Users/sravankumar/Desktop/WebServiceParsing/WireViewer-Info.plist"; sourceTree = "<absolute>"; };
+		CAF147EE2250E7C700550820 /* CustomNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavController.swift; sourceTree = "<group>"; };
+		CAF147F12250E98800550820 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		CAF147F22250E98800550820 /* ItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCollectionViewCell.xib; sourceTree = "<group>"; };
+		CAF65F14224E2A5000FDDE7D /* SimpsonsViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpsonsViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF65F17224E2A5000FDDE7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAF65F19224E2A5000FDDE7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAF65F1C224E2A5000FDDE7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAF65F1E224E2A5300FDDE7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAF65F21224E2A5300FDDE7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAF65F23224E2A5300FDDE7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAF65F2A224E2A6100FDDE7D /* Topics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Topics.swift; sourceTree = "<group>"; };
+		CAF65F33224E2AC200FDDE7D /* XfinityServiceManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XfinityServiceManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF65F35224E2AC200FDDE7D /* XfinityServiceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XfinityServiceManager.h; sourceTree = "<group>"; };
+		CAF65F36224E2AC200FDDE7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAF65F40224E2AD600FDDE7D /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		CAF65F42224E341D00FDDE7D /* SingleTonManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleTonManager.swift; sourceTree = "<group>"; };
+		CF3923D49DB7078E86B19C7B /* Pods_WebServiceParsing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebServiceParsing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAF10915225280FD00F343ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF10916225280FD00F343ED /* XfinityServiceManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF65F11224E2A5000FDDE7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF65F3A224E2AC200FDDE7D /* XfinityServiceManager.framework in Frameworks */,
+				87A0F6ED998BF02C8C03657A /* Pods_SimpsonsViewer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF65F30224E2AC200FDDE7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E133216F59FE004F96C97BB6 /* Pods_XfinityServiceManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74F92FBFB3ECD50646C0F388 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF3923D49DB7078E86B19C7B /* Pods_WebServiceParsing.framework */,
+				B6B9293DE62698807E7C2BE0 /* Pods_XfinityServiceManager.framework */,
+				33B645E2F6DFC51647B28A57 /* Pods_SimpsonsViewer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAF02DD1225211E700D4D761 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CAF02DD22252120800D4D761 /* ViewController+Presenter.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CAF147F02250E95900550820 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CAF147F12250E98800550820 /* ItemCollectionViewCell.swift */,
+				CAF147F22250E98800550820 /* ItemCollectionViewCell.xib */,
+				CAF02DD422521B1900D4D761 /* ItemCollectionVerticalCell.xib */,
+				CAF02DCF2252116100D4D761 /* ItemCollectionLayout.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CAF65F0B224E2A5000FDDE7D = {
+			isa = PBXGroup;
+			children = (
+				CAF65F16224E2A5000FDDE7D /* SimpsonsViewer */,
+				CAF65F34224E2AC200FDDE7D /* XfinityServiceManager */,
+				CAF65F15224E2A5000FDDE7D /* Products */,
+				DA70DFDA6D5990C4E299A1CC /* Pods */,
+				74F92FBFB3ECD50646C0F388 /* Frameworks */,
+				CAF10926225280FE00F343ED /* WireViewer-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		CAF65F15224E2A5000FDDE7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAF65F14224E2A5000FDDE7D /* SimpsonsViewer.app */,
+				CAF65F33224E2AC200FDDE7D /* XfinityServiceManager.framework */,
+				CAF10925225280FD00F343ED /* WireViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAF65F16224E2A5000FDDE7D /* SimpsonsViewer */ = {
+			isa = PBXGroup;
+			children = (
+				CAF02DD1225211E700D4D761 /* ViewModel */,
+				CAF147F02250E95900550820 /* Views */,
+				CAF65F2D224E2A8C00FDDE7D /* Managers */,
+				CAF65F2C224E2A6900FDDE7D /* Controllers */,
+				CAF65F29224E2A6100FDDE7D /* Models */,
+				CAF65F17224E2A5000FDDE7D /* AppDelegate.swift */,
+				CAF65F19224E2A5000FDDE7D /* ViewController.swift */,
+				CAF02DD622524DBC00D4D761 /* DetailsViewController.swift */,
+				CAF02DD722524DBC00D4D761 /* DetailsViewController.xib */,
+				CAF65F1B224E2A5000FDDE7D /* Main.storyboard */,
+				CAF65F1E224E2A5300FDDE7D /* Assets.xcassets */,
+				CAF65F20224E2A5300FDDE7D /* LaunchScreen.storyboard */,
+				CAF65F23224E2A5300FDDE7D /* Info.plist */,
+			);
+			path = SimpsonsViewer;
+			sourceTree = "<group>";
+		};
+		CAF65F29224E2A6100FDDE7D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CAF65F2A224E2A6100FDDE7D /* Topics.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CAF65F2C224E2A6900FDDE7D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CAF65F2D224E2A8C00FDDE7D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				CAF65F42224E341D00FDDE7D /* SingleTonManager.swift */,
+				CAF147EE2250E7C700550820 /* CustomNavController.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		CAF65F34224E2AC200FDDE7D /* XfinityServiceManager */ = {
+			isa = PBXGroup;
+			children = (
+				CAF65F35224E2AC200FDDE7D /* XfinityServiceManager.h */,
+				CAF65F40224E2AD600FDDE7D /* ServiceManager.swift */,
+				CAF65F36224E2AC200FDDE7D /* Info.plist */,
+			);
+			path = XfinityServiceManager;
+			sourceTree = "<group>";
+		};
+		DA70DFDA6D5990C4E299A1CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60952A3414616610D0B4869E /* Pods-XfinityServiceManager.debug.xcconfig */,
+				C147AC2C80D70631C73D96BB /* Pods-XfinityServiceManager.release.xcconfig */,
+				5C5C42E6D9C32D53879883A8 /* Pods-SimpsonsViewer.debug.xcconfig */,
+				5A207AB96E140E8076F4891B /* Pods-SimpsonsViewer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CAF65F2E224E2AC200FDDE7D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF65F37224E2AC200FDDE7D /* XfinityServiceManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CAF10907225280FD00F343ED /* WireViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF10922225280FD00F343ED /* Build configuration list for PBXNativeTarget "WireViewer" */;
+			buildPhases = (
+				CAF1090B225280FD00F343ED /* Sources */,
+				CAF10915225280FD00F343ED /* Frameworks */,
+				CAF10918225280FD00F343ED /* Resources */,
+				CAF1091F225280FD00F343ED /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAF10908225280FD00F343ED /* PBXTargetDependency */,
+			);
+			name = WireViewer;
+			productName = WebServiceParsing;
+			productReference = CAF10925225280FD00F343ED /* WireViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAF65F13224E2A5000FDDE7D /* SimpsonsViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF65F26224E2A5300FDDE7D /* Build configuration list for PBXNativeTarget "SimpsonsViewer" */;
+			buildPhases = (
+				D68C6DEE92373EC493884572 /* [CP] Check Pods Manifest.lock */,
+				CAF65F10224E2A5000FDDE7D /* Sources */,
+				CAF65F11224E2A5000FDDE7D /* Frameworks */,
+				CAF65F12224E2A5000FDDE7D /* Resources */,
+				CAF65F3F224E2AC200FDDE7D /* Embed Frameworks */,
+				B4164E347074E54AE915CDD5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAF65F39224E2AC200FDDE7D /* PBXTargetDependency */,
+			);
+			name = SimpsonsViewer;
+			productName = WebServiceParsing;
+			productReference = CAF65F14224E2A5000FDDE7D /* SimpsonsViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAF65F32224E2AC200FDDE7D /* XfinityServiceManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF65F3C224E2AC200FDDE7D /* Build configuration list for PBXNativeTarget "XfinityServiceManager" */;
+			buildPhases = (
+				58DA1AC7D2D9CF5BAFFE5D5A /* [CP] Check Pods Manifest.lock */,
+				CAF65F2E224E2AC200FDDE7D /* Headers */,
+				CAF65F2F224E2AC200FDDE7D /* Sources */,
+				CAF65F30224E2AC200FDDE7D /* Frameworks */,
+				CAF65F31224E2AC200FDDE7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XfinityServiceManager;
+			productName = XfinityServiceManager;
+			productReference = CAF65F33224E2AC200FDDE7D /* XfinityServiceManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAF65F0C224E2A5000FDDE7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Sanith Raj";
+				TargetAttributes = {
+					CAF65F13224E2A5000FDDE7D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CAF65F32224E2AC200FDDE7D = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = CAF65F0F224E2A5000FDDE7D /* Build configuration list for PBXProject "SimpsonsViewer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAF65F0B224E2A5000FDDE7D;
+			productRefGroup = CAF65F15224E2A5000FDDE7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAF65F13224E2A5000FDDE7D /* SimpsonsViewer */,
+				CAF65F32224E2AC200FDDE7D /* XfinityServiceManager */,
+				CAF10907225280FD00F343ED /* WireViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAF10918225280FD00F343ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF10919225280FD00F343ED /* LaunchScreen.storyboard in Resources */,
+				CAF1091A225280FD00F343ED /* ItemCollectionViewCell.xib in Resources */,
+				CAF1091B225280FD00F343ED /* Assets.xcassets in Resources */,
+				CAF1091C225280FD00F343ED /* ItemCollectionVerticalCell.xib in Resources */,
+				CAF1091D225280FD00F343ED /* Main.storyboard in Resources */,
+				CAF1091E225280FD00F343ED /* DetailsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF65F12224E2A5000FDDE7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF65F22224E2A5300FDDE7D /* LaunchScreen.storyboard in Resources */,
+				CAF147F42250E98800550820 /* ItemCollectionViewCell.xib in Resources */,
+				CAF65F1F224E2A5300FDDE7D /* Assets.xcassets in Resources */,
+				CAF02DD522521B1900D4D761 /* ItemCollectionVerticalCell.xib in Resources */,
+				CAF65F1D224E2A5000FDDE7D /* Main.storyboard in Resources */,
+				CAF02DD922524DBC00D4D761 /* DetailsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF65F31224E2AC200FDDE7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58DA1AC7D2D9CF5BAFFE5D5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XfinityServiceManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4164E347074E54AE915CDD5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimpsonsViewer/Pods-SimpsonsViewer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SimpsonsViewer/Pods-SimpsonsViewer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D68C6DEE92373EC493884572 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpsonsViewer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAF1090B225280FD00F343ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF1090C225280FD00F343ED /* Topics.swift in Sources */,
+				CAF1090D225280FD00F343ED /* ViewController.swift in Sources */,
+				CAF1090E225280FD00F343ED /* DetailsViewController.swift in Sources */,
+				CAF1090F225280FD00F343ED /* AppDelegate.swift in Sources */,
+				CAF10910225280FD00F343ED /* ViewController+Presenter.swift in Sources */,
+				CAF10911225280FD00F343ED /* ItemCollectionViewCell.swift in Sources */,
+				CAF10912225280FD00F343ED /* ItemCollectionLayout.swift in Sources */,
+				CAF10913225280FD00F343ED /* CustomNavController.swift in Sources */,
+				CAF10914225280FD00F343ED /* SingleTonManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF65F10224E2A5000FDDE7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF65F2B224E2A6100FDDE7D /* Topics.swift in Sources */,
+				CAF65F1A224E2A5000FDDE7D /* ViewController.swift in Sources */,
+				CAF02DD822524DBC00D4D761 /* DetailsViewController.swift in Sources */,
+				CAF65F18224E2A5000FDDE7D /* AppDelegate.swift in Sources */,
+				CAF02DD32252120800D4D761 /* ViewController+Presenter.swift in Sources */,
+				CAF147F32250E98800550820 /* ItemCollectionViewCell.swift in Sources */,
+				CAF02DD02252116100D4D761 /* ItemCollectionLayout.swift in Sources */,
+				CAF147EF2250E7C700550820 /* CustomNavController.swift in Sources */,
+				CAF65F43224E341D00FDDE7D /* SingleTonManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF65F2F224E2AC200FDDE7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF65F41224E2AD600FDDE7D /* ServiceManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAF10908225280FD00F343ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAF65F32224E2AC200FDDE7D /* XfinityServiceManager */;
+			targetProxy = CAF10909225280FD00F343ED /* PBXContainerItemProxy */;
+		};
+		CAF65F39224E2AC200FDDE7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAF65F32224E2AC200FDDE7D /* XfinityServiceManager */;
+			targetProxy = CAF65F38224E2AC200FDDE7D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAF65F1B224E2A5000FDDE7D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAF65F1C224E2A5000FDDE7D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAF65F20224E2A5300FDDE7D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAF65F21224E2A5300FDDE7D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAF10923225280FD00F343ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 643G3RL44Z;
+				INFOPLIST_FILE = "$(SRCROOT)/WireViewer-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"SDWebImage\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.wireviewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAF10924225280FD00F343ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 643G3RL44Z;
+				INFOPLIST_FILE = "$(SRCROOT)/WireViewer-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"SDWebImage\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.wireviewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAF65F24224E2A5300FDDE7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAF65F25224E2A5300FDDE7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAF65F27224E2A5300FDDE7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C5C42E6D9C32D53879883A8 /* Pods-SimpsonsViewer.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 643G3RL44Z;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"SimpsonsViewer=1",
+				);
+				INFOPLIST_FILE = WebServiceParsing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"SDWebImage\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.simpsonsviewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAF65F28224E2A5300FDDE7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A207AB96E140E8076F4891B /* Pods-SimpsonsViewer.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 643G3RL44Z;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"SimpsonsViewer=1",
+				);
+				INFOPLIST_FILE = WebServiceParsing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"SDWebImage\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.simpsonsviewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAF65F3D224E2AC200FDDE7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60952A3414616610D0B4869E /* Pods-XfinityServiceManager.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 643G3RL44Z;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = XfinityServiceManager/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..XfinityServiceManager;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CAF65F3E224E2AC200FDDE7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C147AC2C80D70631C73D96BB /* Pods-XfinityServiceManager.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 643G3RL44Z;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = XfinityServiceManager/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..XfinityServiceManager;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAF10922225280FD00F343ED /* Build configuration list for PBXNativeTarget "WireViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF10923225280FD00F343ED /* Debug */,
+				CAF10924225280FD00F343ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF65F0F224E2A5000FDDE7D /* Build configuration list for PBXProject "SimpsonsViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF65F24224E2A5300FDDE7D /* Debug */,
+				CAF65F25224E2A5300FDDE7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF65F26224E2A5300FDDE7D /* Build configuration list for PBXNativeTarget "SimpsonsViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF65F27224E2A5300FDDE7D /* Debug */,
+				CAF65F28224E2A5300FDDE7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF65F3C224E2AC200FDDE7D /* Build configuration list for PBXNativeTarget "XfinityServiceManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF65F3D224E2AC200FDDE7D /* Debug */,
+				CAF65F3E224E2AC200FDDE7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAF65F0C224E2A5000FDDE7D /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_SimpsonsViewer {
+  umbrella header "Pods-SimpsonsViewer-umbrella.h"
+
+  export *
+  module * { export * }
+}
