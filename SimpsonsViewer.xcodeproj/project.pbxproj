@@ -741,7 +741,7 @@
 					"COCOAPODS=1",
 					"SimpsonsViewer=1",
 				);
-				INFOPLIST_FILE = WebServiceParsing/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SimpsonsViewer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -773,7 +773,7 @@
 					"COCOAPODS=1",
 					"SimpsonsViewer=1",
 				);
-				INFOPLIST_FILE = WebServiceParsing/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SimpsonsViewer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
